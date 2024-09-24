@@ -1,0 +1,120 @@
+2024-09-23 18:01:57,569 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/recepcao/Downloads/apache-activemq-6.1.3/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2024-09-23 18:01:57,579 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[/home/recepcao/Downloads/apache-activemq-6.1.3/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2024-09-23 18:01:57,682 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2024-09-23 18:01:57,682 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2024-09-23 18:01:58,221 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2024-09-23 18:01:58,222 | INFO  | PListStore:[/home/recepcao/Downloads/apache-activemq-6.1.3/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2024-09-23 18:01:58,222 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2024-09-23 18:01:58,222 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2024-09-23 18:01:58,355 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-43619-1727125318229-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2024-09-23 18:01:58,369 | INFO  | Listening for connections at: tcp://recepcao-iMac:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-09-23 18:01:58,370 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2024-09-23 18:01:58,373 | INFO  | Listening for connections at: amqp://recepcao-iMac:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-09-23 18:01:58,373 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2024-09-23 18:01:58,375 | INFO  | Listening for connections at: stomp://recepcao-iMac:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-09-23 18:01:58,376 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2024-09-23 18:01:58,378 | INFO  | Listening for connections at: mqtt://recepcao-iMac:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-09-23 18:01:58,378 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2024-09-23 18:01:58,381 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2024-09-23 18:01:58,424 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2024-09-23 18:01:58,540 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@4c1bdcc2{/,null,STARTING} has uncovered HTTP methods for the following paths: [/] | org.eclipse.jetty.security.SecurityHandler | main
+2024-09-23 18:01:58,560 | INFO  | Listening for connections at ws://recepcao-iMac:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2024-09-23 18:01:58,561 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2024-09-23 18:01:58,561 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-43619-1727125318229-0:1) started | org.apache.activemq.broker.BrokerService | main
+2024-09-23 18:01:58,561 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2024-09-23 18:01:59,235 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2024-09-23 18:01:59,235 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2024-09-23 18:45:34,034 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-43619-1727125318229-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-20
+2024-09-23 18:45:34,039 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-23 18:45:34,040 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-23 18:45:34,040 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-23 18:45:34,042 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-23 18:45:34,740 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-23 18:45:34,743 | INFO  | PListStore:[/home/recepcao/Downloads/apache-activemq-6.1.3/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-20
+2024-09-23 18:45:34,744 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2024-09-23 18:45:34,744 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2024-09-23 18:45:34,745 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2024-09-23 18:45:36,827 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-43619-1727125318229-0:1) uptime 43 minutes | org.apache.activemq.broker.BrokerService | Thread-20
+2024-09-23 18:45:36,827 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-43619-1727125318229-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-20
+2024-09-24 18:28:12,275 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/recepcao/Documents/WS/ws-qrcode/src/activemq/apache-activemq-6.1.3/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:28:12,316 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[/home/recepcao/Documents/WS/ws-qrcode/src/activemq/apache-activemq-6.1.3/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:28:12,469 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2024-09-24 18:28:12,470 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2024-09-24 18:28:12,732 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2024-09-24 18:28:12,900 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:28:12,900 | INFO  | PListStore:[/home/recepcao/Documents/WS/ws-qrcode/src/activemq/apache-activemq-6.1.3/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2024-09-24 18:28:12,900 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:28:12,900 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:28:13,058 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-43211-1727213292913-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:28:13,121 | INFO  | Listening for connections at: tcp://recepcao-iMac:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-09-24 18:28:13,121 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2024-09-24 18:28:13,138 | INFO  | Listening for connections at: amqp://recepcao-iMac:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-09-24 18:28:13,138 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2024-09-24 18:28:13,146 | INFO  | Listening for connections at: stomp://recepcao-iMac:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-09-24 18:28:13,146 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2024-09-24 18:28:13,153 | INFO  | Listening for connections at: mqtt://recepcao-iMac:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-09-24 18:28:13,163 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2024-09-24 18:28:13,166 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2024-09-24 18:28:13,268 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2024-09-24 18:28:13,516 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@518bfd90{/,null,STARTING} has uncovered HTTP methods for the following paths: [/] | org.eclipse.jetty.security.SecurityHandler | main
+2024-09-24 18:28:13,553 | INFO  | Listening for connections at ws://recepcao-iMac:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2024-09-24 18:28:13,553 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2024-09-24 18:28:13,553 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-43211-1727213292913-0:1) started | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:28:13,553 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:28:14,969 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2024-09-24 18:28:14,969 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2024-09-24 18:30:31,027 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-43211-1727213292913-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-20
+2024-09-24 18:30:31,029 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-24 18:30:31,029 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-24 18:30:31,029 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-24 18:30:31,030 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-24 18:30:31,049 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-24 18:30:31,066 | INFO  | PListStore:[/home/recepcao/Documents/WS/ws-qrcode/src/activemq/apache-activemq-6.1.3/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-20
+2024-09-24 18:30:31,066 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2024-09-24 18:30:31,067 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2024-09-24 18:30:31,067 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2024-09-24 18:30:31,265 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-43211-1727213292913-0:1) uptime 2 minutes | org.apache.activemq.broker.BrokerService | Thread-20
+2024-09-24 18:30:31,265 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-43211-1727213292913-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-20
+2024-09-24 18:37:02,569 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/recepcao/Documents/WS/ws-qrcode/src/activemq/apache-activemq-6.1.3/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:37:02,575 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[/home/recepcao/Documents/WS/ws-qrcode/src/activemq/apache-activemq-6.1.3/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:37:02,658 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2024-09-24 18:37:02,658 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2024-09-24 18:37:02,782 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2024-09-24 18:37:02,899 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:37:02,899 | INFO  | PListStore:[/home/recepcao/Documents/WS/ws-qrcode/src/activemq/apache-activemq-6.1.3/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2024-09-24 18:37:02,900 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:37:02,900 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:37:03,035 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-42051-1727213822910-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:37:03,049 | INFO  | Listening for connections at: tcp://recepcao-iMac:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-09-24 18:37:03,049 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2024-09-24 18:37:03,052 | INFO  | Listening for connections at: amqp://recepcao-iMac:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-09-24 18:37:03,052 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2024-09-24 18:37:03,056 | INFO  | Listening for connections at: stomp://recepcao-iMac:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-09-24 18:37:03,056 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2024-09-24 18:37:03,059 | INFO  | Listening for connections at: mqtt://recepcao-iMac:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-09-24 18:37:03,060 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2024-09-24 18:37:03,063 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2024-09-24 18:37:03,111 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2024-09-24 18:37:03,203 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@518bfd90{/,null,STARTING} has uncovered HTTP methods for the following paths: [/] | org.eclipse.jetty.security.SecurityHandler | main
+2024-09-24 18:37:03,230 | INFO  | Listening for connections at ws://recepcao-iMac:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2024-09-24 18:37:03,235 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2024-09-24 18:37:03,235 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-42051-1727213822910-0:1) started | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:37:03,235 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2024-09-24 18:37:03,856 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2024-09-24 18:37:03,856 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2024-09-24 18:37:55,826 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-42051-1727213822910-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-20
+2024-09-24 18:37:55,827 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-24 18:37:55,828 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-24 18:37:55,829 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-24 18:37:55,829 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2024-09-24 18:37:55,829 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2024-09-24 18:37:55,830 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-24 18:37:55,830 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: stomp://0.0.0.0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2024-09-24 18:37:55,830 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: stomp://0.0.0.0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2024-09-24 18:37:55,835 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2024-09-24 18:37:55,837 | INFO  | PListStore:[/home/recepcao/Documents/WS/ws-qrcode/src/activemq/apache-activemq-6.1.3/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-20
+2024-09-24 18:37:55,837 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2024-09-24 18:37:55,838 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2024-09-24 18:37:55,838 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2024-09-24 18:37:56,051 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-42051-1727213822910-0:1) uptime 53.497 seconds | org.apache.activemq.broker.BrokerService | Thread-20
+2024-09-24 18:37:56,051 | INFO  | Apache ActiveMQ 6.1.3 (localhost, ID:recepcao-iMac-42051-1727213822910-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-20
