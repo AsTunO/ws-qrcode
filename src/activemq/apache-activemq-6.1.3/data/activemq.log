@@ -145,3 +145,4 @@
 2024-09-25 13:14:01,831 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
 2024-09-25 13:14:03,144 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
 2024-09-25 13:14:03,145 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2024-09-25 13:40:19,354 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp649848324-48

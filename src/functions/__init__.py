@@ -1,9 +1,23 @@
 import qrcode
 from PIL import Image
+import base64
+from io import BytesIO
+import stomp  # Certifique-se de ter a biblioteca stomp instalada
+
+def send_image(image_bytes):
+    # Conectando ao ActiveMQ (localhost na porta 61613, padrão para STOMP)
+    conn = stomp.Connection([('localhost', 61613)])
+    conn.connect(wait=True)
+
+    # Enviando a mensagem (imagem em Base64)
+    conn.send(body=image_bytes, destination='/queue/imageQueue')
+    
+    print("Imagem enviada para a fila.")
+    conn.disconnect()
 
 def genQRCode(link):
     imagem_central = "../imgs/pd-logo.png"
-    caminho_saida = "qrcode.png"
+    
     # Cria um QR Code
     qr = qrcode.QRCode(
         version=1,
@@ -30,6 +44,11 @@ def genQRCode(link):
     # Coloca a imagem central no QR Code
     qr_img.paste(central_img, (central_x, central_y), central_img)  # Certifique-se de que a máscara de transparência está correta
 
-    # Salva a imagem final
-    qr_img.save(caminho_saida)
-    print(f'QR Code salvo em {caminho_saida}')
+    # Usando BytesIO para manter a imagem em memória
+    buffer = BytesIO()
+    qr_img.save(buffer, format="PNG")  # Salva a imagem no buffer
+    buffer.seek(0)  # Move o cursor para o início do buffer
+    image_bytes = base64.b64encode(buffer.getvalue()).decode('utf-8')  # Codifica a imagem em Base64
+
+    # Chama a função send_image e passa a imagem codificada
+    send_image(image_bytes)
